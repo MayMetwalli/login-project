@@ -1,0 +1,49 @@
+body{
+    background-color: #24353F;
+}
+.login-body, .welcome-body{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    a:hover{
+        text-decoration: underline !important;
+    
+    }
+}
+.welcome-body{
+    color: #17A2B8;
+}
+nav{
+    background-color: #24353F !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+}
+
+input::placeholder{
+    color:white !important;
+    opacity: 0.8 !important;
+
+  }
+
+.form-control:focus {
+    border-color: #17A2B8 !important;
+    box-shadow: none !important;
+    
+}
+
+h1{
+    color: #17A2B8;
+    font-family:"Titillium Web", sans-serif ;
+    font-size: 40px;
+    font-weight: 500;
+}
+.btn-outline-info{
+    color: #17a2b8;
+    background-color: transparent;
+    border-color: #17a2b8; ;
+}
+
+.btn-outline-info.focus, .btn-outline-info:focus {
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5);
+}
+.btn:hover{
+    color: white !important;
+}
